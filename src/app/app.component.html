@@ -1,2 +1,20 @@
-<!-- <app-gallery></app-gallery> -->
-<router-outlet></router-outlet>
+<div class="hamburger" [class.open]="isNavigationOpen"  (click)="toggleNavigation()">
+    
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    </div>
+    
+ 
+  
+  <div class="overlay" [ngClass]="{'show': isNavigationOpen}">
+    <div class="navigation">
+      <ul>
+        <li><a routerLink="kitty" class="nav-link" (click)="toggleNavigation()"  [class.animate-links]="isNavigationOpen">Home</a></li>
+      <li><a href="#" class="nav-link" (click)="toggleNavigation()" [class.animate-links]="isNavigationOpen">About</a></li>
+      <li><a href="#" class="nav-link" (click)="toggleNavigation()" [class.animate-links]="isNavigationOpen">Services</a></li>
+      <li><a href="#" class="nav-link" (click)="toggleNavigation()" [class.animate-links]="isNavigationOpen">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <router-outlet></router-outlet>

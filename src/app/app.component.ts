@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'SangeetPortfolio';
+  isNavigationOpen = false;
+
+  toggleNavigation() {
+    this.isNavigationOpen = !this.isNavigationOpen;
+    if (this.isNavigationOpen) {
+      document.body.classList.add('navigation-open');
+    } else {
+      document.body.classList.remove('navigation-open');
+    }
+  }
 }

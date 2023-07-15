@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./landingpage.component.scss']
 })
 export class LandingpageComponent {
+// initialize splitting
 
 }
