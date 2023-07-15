@@ -7,6 +7,8 @@ import { LandingpageComponent } from './components/landingpage/landingpage.compo
 import { ErrorComponent } from './components/error/error.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { KittyGalleryComponent } from './components/kitty-gallery/kitty-gallery.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
+import { ServicesComponent } from './components/services/services.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { KittyGalleryComponent } from './components/kitty-gallery/kitty-gallery.
     ErrorComponent,
     GalleryComponent,
     KittyGalleryComponent,
+    AboutMeComponent,
+    ServicesComponent,
   ],
   imports: [
     BrowserModule,
