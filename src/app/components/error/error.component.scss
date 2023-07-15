@@ -1,0 +1,29 @@
+.isologo {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 305px;
+    line-height:18rem;
+    text-transform:uppercase;
+    opacity: 0;
+    transform: translateY(100px);
+    font-family: 'Arial';
+    font-weight: bold;
+    padding-right: 20px;
+    background-image: url(https://www.petitfute.com/medias/photo/835_501/bc/14/243641-lyon-lyon.jpg);
+    background-position: right 20px;
+    background-size: cover;
+    letter-spacing: -20px;
+    margin-right: 50px;
+    color: #221f1f;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: opacity 1s, transform 1.2s cubic-bezier(.165,.84,.44,1);
+}
+
+
+.isologo {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
