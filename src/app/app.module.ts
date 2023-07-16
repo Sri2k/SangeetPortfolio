@@ -9,6 +9,7 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { KittyGalleryComponent } from './components/kitty-gallery/kitty-gallery.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { ServicesComponent } from './components/services/services.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ServicesComponent } from './components/services/services.component';
     KittyGalleryComponent,
     AboutMeComponent,
     ServicesComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
