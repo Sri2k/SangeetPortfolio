@@ -4,13 +4,14 @@ import { LandingpageComponent } from './components/landingpage/landingpage.compo
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { KittyGalleryComponent } from './components/kitty-gallery/kitty-gallery.component';
 import { ServicesComponent } from './components/services/services.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 const routes: Routes = [
   {
     path:'',component:LandingpageComponent
   },
   {
-    path:'kitty',component:ServicesComponent
+    path:'contact',component:ContactComponent
   }
 ];
 
